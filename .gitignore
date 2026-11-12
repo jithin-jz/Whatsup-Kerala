@@ -33,3 +33,8 @@ frontend/.vercel
 
 frontend/*.tsbuildinfo
 frontend/next-env.d.ts
+
+# Secrets (never commit)
+.env
+.env.*
+!.env.example
